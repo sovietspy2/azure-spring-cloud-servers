@@ -23,7 +23,8 @@
     </properties>
 
     <modules>
-
+        <module>weather</module>
+        <module>gateway</module>
     </modules>
 
 </project>
