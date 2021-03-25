@@ -24,4 +24,4 @@ jobs:
     - name: Deploy WEATHER SERVICE to Azure Spring Cloud
       run: az spring-cloud app deploy --resource-group wortex --service spring-cloud23 --name weather --jar-path weather/target/weather-0.0.1-SNAPSHOT.jar
     - name: Deploy PARKING SERVICE to Azure Spring Cloud
-      run: az spring-cloud app deploy --resource-group wortex --service spring-cloud23 --name parking --jar-path parking/target/weather-0.0.1-SNAPSHOT.jar
+      run: az spring-cloud app deploy --resource-group wortex --service spring-cloud23 --name parking --jar-path parking/target/parking-0.0.1-SNAPSHOT.jar
