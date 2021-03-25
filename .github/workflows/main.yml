@@ -20,6 +20,6 @@ jobs:
     - name: Install Azure Spring Cloud extension
       run: az extension add -y --name spring-cloud
     - name: Deploy GATEWAY to Azure Spring Cloud
-      run: az spring-cloud app deploy --resource-group wortex --service spring-cloud23 --name gateway --jar-path target/gateway-0.0.1-SNAPSHOT.jar
+      run: az spring-cloud app deploy --resource-group wortex --service spring-cloud23 --name gateway --jar-path gateway/target/gateway-0.0.1-SNAPSHOT.jar
     - name: Deploy WEATHER SERVICE to Azure Spring Cloud
-      run: az spring-cloud app deploy --resource-group wortex --service spring-cloud23 --name weather --jar-path target/weather-0.0.1-SNAPSHOT.jar
+      run: az spring-cloud app deploy --resource-group wortex --service spring-cloud23 --name weather --jar-path weather/target/weather-0.0.1-SNAPSHOT.jar
