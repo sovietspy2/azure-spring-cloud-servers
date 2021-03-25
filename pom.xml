@@ -25,6 +25,7 @@
     <modules>
         <module>weather</module>
         <module>gateway</module>
+        <module>parking</module>
     </modules>
 
 </project>

@@ -1,0 +1,5 @@
+spring:
+  cloud:
+    vault:
+      authentication: TOKEN
+      token: 00000000-0000-0000-0000-000000000000

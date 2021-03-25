@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="weather" />
+        <module name="parking" />
         <module name="registry" />
         <module name="config" />
         <module name="gateway" />
@@ -18,6 +19,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="config" options="-parameters" />
       <module name="gateway" options="-parameters" />
+      <module name="parking" options="-parameters" />
       <module name="registry" options="-parameters" />
       <module name="weather" options="-parameters" />
     </option>

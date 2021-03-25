@@ -32,6 +32,7 @@ public class GatewayApplication {
                 .route("weather", r-> r.path("/hello").uri("lb://WEATHER"))
                 .route("weatherAddressRoute", r-> r.path("/address").uri("lb://WEATHER"))
                 .route("weatherAddressRoute2", r-> r.path("/address/*").uri("lb://WEATHER"))
+                .route("parkingRoute", r-> r.path("/parking").uri("lb://PARKING"))
                 .route("path_route", r -> r.path("/get")
                         .uri("http://httpbin.org"))
                 .route("host_route", r -> r.host("*.myhost.org")
